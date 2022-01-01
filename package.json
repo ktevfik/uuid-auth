@@ -1,0 +1,23 @@
+{
+  "name": "uuid-auth",
+  "version": "1.0.0",
+  "description": "authentication with uuid token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "author": "mtevfik41",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "pretty-quick": "^3.1.3"
+  }
+}
