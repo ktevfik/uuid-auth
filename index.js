@@ -52,6 +52,9 @@ app.post('/api/authenticate', async (req, res) => {
   }
 });
 
+// @route   POST api/logout
+// @desc    Logout user
+// @access  Private
 app.post('/api/logout', auth, async (req, res) => {
   try {
     req.user.tokens = req.user.tokens.filter(token => {
